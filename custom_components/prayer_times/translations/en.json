@@ -1,0 +1,36 @@
+{
+  "title": "Prayer Times",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Prayer Times",
+        "description": "Do you want to set up Prayer Times?"
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_service%]"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fajr": {
+        "name": "Fajr prayer"
+      },
+      "sunrise": {
+        "name": "Sunrise time"
+      },
+      "dhuhr": {
+        "name": "Dhuhr prayer"
+      },
+      "sunset": {
+        "name": "Sunset time"
+      },
+      "maghrib": {
+        "name": "Maghrib prayer"
+      },
+      "midnight": {
+        "name": "Midnight time"
+      }
+    }
+  }
+}
